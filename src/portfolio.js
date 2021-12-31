@@ -9,24 +9,22 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Harikrushn",
-  logo_name: "harry.k()",
-  nickname: "harry / picleric",
-  full_name: "Harikrushn Kanani",
-  subTitle:
-    "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+  title: "Hallo 👋.",
+  title2: "Makki",
+  logo_name: "makki",
+  nickname: "makki / haji",
+  full_name: "H. Makki",
+  subTitle: "Full Stack Developer. Always learning.",
   resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
+    "https://drive.google.com/file/d/148gPtSYibTQYt2pkuMUG6OJcZ00ACxKC/view?usp=sharing",
+  mail: "mailto:h.makki97@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
+  github: "https://github.com/hikari97",
   linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
+  gmail: "h.makki97@gmail.com",
   facebook: "https://www.facebook.com/harikrishan.kanani/",
   twitter: "https://twitter.com/Harikrushn9",
   instagram: "https://www.instagram.com/hari_kanani_/",
@@ -38,11 +36,11 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        "⚡ Develop User Interface Web / Aplikasi Mobile",
+        "⚡ Build responsive website front end Dengan ReactJs/NextJs",
+        "⚡ Develop mobile applications Dengan React Native",
+        "⚡ Backend Aplikasi Dengan NodeJs, Express & MongoDb",
+        "⚡ Intergrasi Layanan Third Party Seperti Firebase/ AWS / Digital Ocean",
       ],
       softwareSkills: [
         {
@@ -75,7 +73,7 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
+          skillName: "React",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
@@ -109,34 +107,27 @@ const skills = {
         //     color: "#DE33A6",
         //   },
         // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
+        // {
+        //   skillName: "Android",
+        //   fontAwesomeClassname: "simple-icons:android",
+        //   style: {
+        //     color: "#3DDC84",
+        //   },
+        // },
+        // {
+        //   skillName: "Java",
+        //   fontAwesomeClassname: "simple-icons:java",
+        //   style: {
+        //     color: "#f89820",
+        //   },
+        // },
+        // {
+        //   skillName: "ReactJs",
+        //   fontAwesomeClassname: "simple-icons:flutter",
+        //   style: {
+        //     color: "#02569B",
+        //   },
+        // },
         // {
         //   skillName: "Visual Basic",
         //   fontAwesomeClassname: "simple-icons:dot-net",
@@ -179,36 +170,36 @@ const skills = {
             color: "#E94E32",
           },
         },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
+        // {
+        //   skillName: "C",
+        //   fontAwesomeClassname: "simple-icons:c",
+        //   style: {
+        //     color: "#E94E32",
+        //   },
+        // },
+        // {
+        //   skillName: "C++",
+        //   fontAwesomeClassname: "simple-icons:cplusplus",
+        //   style: {
+        //     color: "#E94E32",
+        //   },
+        // },
+        // {
+        //   skillName: "Python",
+        //   fontAwesomeClassname: "simple-icons:python",
+        //   style: {
+        //     color: "#3776AB",
+        //   },
+        // },
       ],
     },
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Berpengalaman Dalam Banyak cloud platforms",
+        "⚡ Berpengalaman menghosting dan mengelola situs web",
+        "⚡ Pengalaman dengan Integrasi Berkelanjutan",
       ],
       softwareSkills: [
         {
@@ -275,31 +266,17 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
-      subtitle: "Bachelor in Information Technology",
-      logo_path: "ssec.png",
-      alt_name: "SSEC",
-      duration: "2021 - Present",
-      descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology."
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-      ],
-      website_link: "http://www.ssgec.ac.in/",
-    },
-    {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
+      title: "Polimedia Negeri Kreatif PSDD Makassar",
+      subtitle: "Diploma Information Technology",
+      logo_path: "logo-polimedia.png",
       alt_name: "SSGC",
-      duration: "2018 - 2021",
+      duration: "2017 - 2020",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ Saya telah mengerjerjakan beberapa project pemerintahan saat masih kuliah",
+        "⚡ Saya juga telah menyelesaikan berbagai kursus online untuk Backend , Web , Pengembangan Aplikasi Seluler, dll.",
+        "⚡ Saya telah mengimplementasikan beberapa proyek berdasarkan apa yang telah saya pelajari di bawah kursus Teknik Komputer saya. ",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://polimedia.ac.id/",
     },
   ],
 };
@@ -402,14 +379,13 @@ const experience = {
           logo_path: "valora.jpg",
           duration: "Oct 2020 - Mar 2021",
           location: "Office",
-          description:
-          `Train, manage and provide guidance to junior software development staff.
+          description: `Train, manage and provide guidance to junior software development staff.
           Work closely with the Project Manager and Team Leads on change request functions.
           Develops new and maintains existing applications.
           Increased productivity and problem-solving technics by 20%.
           We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
           `,
-            // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
         {
@@ -419,13 +395,12 @@ const experience = {
           logo_path: "nightowls.jpg",
           duration: "Sep 2020 - Oct 2020",
           location: "Work From Home",
-          description:
-          `Work closely with the Client and Team on change request functions.
+          description: `Work closely with the Client and Team on change request functions.
           We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
           `,
-            // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
-        }
+        },
       ],
     },
     {
@@ -449,7 +424,8 @@ const experience = {
           logo_path: "skillenza.png",
           duration: "Feb 2021 - Present",
           location: "Work from Home",
-          description: "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
+          description:
+            "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
           color: "#196acf",
         },
         {
@@ -460,7 +436,7 @@ const experience = {
           duration: "Nov 2019 - Present",
           location: "Work from Home",
           description:
-          "Contribute to Open Source Community and Open Source Project.",
+            "Contribute to Open Source Community and Open Source Project.",
           color: "#040f26",
         },
         {
@@ -503,25 +479,25 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Project",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "saya menggunakan berbagai macam alat teknologi terbaru. Pengalaman terbaik saya adalah membuat Proyek Website Sistem Informasi. Di bawah ini adalah beberapa proyek saya.",
   avatar_image_path: "projects_image.svg",
 };
 
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    title: "Hubungi Saya",
+    profile_image_path: "makki.PNG",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "Anda Dapat Menghubungi Saya Dengan Kontak Yang Ada Di Bawah. ",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Mengenai Saya",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
+      "Saya Adalah Full Stack Delevoper Yang Selalu Ingin Tau Hal Baru.",
+    link: "https://web.facebook.com/MAKKI.HIKARI/",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -530,51 +506,52 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
-      description: "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+      name: "Admin JHK",
+      url: "https://admin.jalanhidupkatolik.com/",
+      description:
+        "Project Website untuk mengelola admin dan ter integrasi dengan Android",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
         },
       ],
     },
     {
       id: "1",
-      name: "react-twitter-clone",
-      url: "https://github.com/harikanani/react-twitter-clone",
+      name: "Ekrafmakassar",
+      url: "https://www.ekrafmakassar.id/",
       description:
-        "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
+        "Sistem Informasi Pemerintahan untuk mengelola para pelaku ekraf di makassar.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "MongoDb",
+          iconifyClass: "logos-mongodb",
         },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      id: "2",
-      name: "node-blockchain",
-      url: "https://github.com/harikanani/node-blockchain",
-      description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
-      languages: [
         {
           name: "NodeJS",
           iconifyClass: "logos-nodejs",
+        },
+      ],
+    },
+
+    {
+      id: "1",
+      name: "Admin Ekrafmakassar",
+      url: "https://admin.ekrafmakassar.id/",
+      description: "Website Admin Untuk Mengelola Data Ekrafmakassar.",
+      languages: [
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
+        },
+        {
+          name: "MongoDb",
+          iconifyClass: "logos-mongodb",
         },
         {
           name: "TypeScript",
@@ -583,263 +560,99 @@ const projects = {
       ],
     },
     {
-      id: "3",
-      name: "top-crypto-gainers",
-      url: "https://github.com/harikanani/top-crypto-gainers",
-      description:
-        "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
+      id: "2",
+      name: "Sistem Informasi Desa Bojo",
+      url: "https://desabojo.com/",
+      description: "Sistem Informasi Desa Bojo Untuk Mengelola Penduduk",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "personal-portfolio",
-      url: "https://github.com/harikanani/personal-portfolio",
-      description:
-        "A simple command line interface based quiz app to know more about me :).",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "node_express_crud_api_starter",
-      url: "https://github.com/harikanani/node_express_crud_api_starter",
-      description:
-        "Simple NodeJS Express CRUD Operations API starter.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "node-web-scrapper",
-      url: "https://github.com/harikanani/node-web-scrapper",
-      description:
-        "A Simple web scrapper that scrap the information of amazon products such as price.It also scrap Wikipedia Data such as birthdate.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "harikanani.github.io",
-      url: "https://github.com/harikanani/harikanani.github.io",
-      description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Automate Attendace",
-      url: "https://github.com/harikanani/Node_Python",
-      description:
-        "Automation of Online Attendance using node js and python",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Automate Discord Bot",
-      url: "https://github.com/harikanani/AutomateDiscordBot",
-      description:
-        "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Python Selenium",
-          iconifyClass: "logos-selenium",
-        },
-        {
-          name: "Chromium Browser",
-          iconifyClass: "openmoji-chromium",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Flask Blog",
-      url: "https://github.com/harikanani/flask_blog",
-      description:
-        "A Simple Blog Web Application made using Flask Framework",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Netflix top series",
-      url: "https://github.com/harikanani/netflix-top-series",
-      description:
-        "List of Top Netflix Series which is deployed to vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      url: "https://github.com/harikanani/Covid19TrackerReact",
-      description: "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Food Order Static Website",
-      url: "https://github.com/harikanani/food-order-website",
-      description: "A simple static website related to food restaurants service. this is reasponsive as well.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "PHP",
+          name: "Php",
           iconifyClass: "logos-php",
         },
-      ],
-    },
-    {
-      id: "12",
-      name: "NFT Launchpad",
-      url: "https://deliquescent-cents.000webhostapp.com/",
-      description: "NFT Launchpad crypto site portfolio",
-      languages: [
+        {
+          name: "MySql",
+          iconifyClass: "logos-mysql",
+        },
         {
           name: "HTML5",
-          iconifyClass: "logos-html-5",
+          iconifyClass: "vscode-icons:file-type-html",
         },
         {
           name: "CSS3",
-          iconifyClass: "logos-css-3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Rumah Belajar Alqur-an Baitul-Ilmi",
+      url: "https://baitulilmi.id/",
+      description: "Website Untuk sebuah lembaga kursus pendidikan Islam ",
+      languages: [
+        {
+          name: "Php",
+          iconifyClass: "logos-php",
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "MySql",
+          iconifyClass: "logos-mysql",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Bank Sampah Makassar",
+      url: "https://banksampah.com/",
+      description:
+        "Website Informasi Yang Mengelola Harga Sampai Tiap Kecamatan",
+      languages: [
+        {
+          name: "Php",
+          iconifyClass: "logos-php",
+        },
+        {
+          name: "MySql",
+          iconifyClass: "logos-mysql",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Softkokmik",
+      url: "http://softkomik.com/",
+      description: "Website Baca Komik Bahasa Indonesia.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
         },
         {
           name: "ReactJS",
           iconifyClass: "logos-react",
+        },
+        {
+          name: "MongoDb",
+          iconifyClass: "logos-mongodb",
         },
       ],
     },

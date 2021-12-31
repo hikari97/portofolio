@@ -26,17 +26,7 @@ function App() {
       <>
         <GlobalStyles />
         <div>
-          {useCursor ? (
-            <CursorProvider
-              color={themes[theme].secondaryText}
-              ringSize={25}
-              transitionTime={75}
-            >
-              <Main theme={themes[theme]} setTheme={setTheme} />
-            </CursorProvider>
-          ) : (
-            <Main theme={themes[theme]} setTheme={setTheme} />
-          )}
+          <Main theme={themes[theme]} setTheme={setTheme} />
         </div>
       </>
     </ThemeProvider>

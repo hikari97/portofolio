@@ -8,7 +8,7 @@ function DegreeCard(props) {
   const theme = props.theme;
 
   const style_img = style({
-    width: "220px",
+    width: "200px",
     height: "auto",
     borderRadius: " 50%",
     padding: "10px",

@@ -31,7 +31,7 @@ function Header(props) {
     },
   });
 
-  const link = settings.isSplash ? "/splash" : "home";
+  const link = "/home";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
 
@@ -92,34 +92,23 @@ function Header(props) {
             <li>
               <NavLink
                 className="ec"
-                to="/education"
+                to="/pendidikan"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education and Certifications
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="xp"
-                to="/experience"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Experience
+                Pendidikan
               </NavLink>
             </li>
             <li>
               <NavLink
                 className="projects"
-                to="/projects"
+                to="/project"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Projects
+                Project
               </NavLink>
             </li>
             <li>
