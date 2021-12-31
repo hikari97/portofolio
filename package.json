@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "https://github.com/hikari97/portofolio",
+  "homepage": "http://hikari97.github.io/portofolio",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
