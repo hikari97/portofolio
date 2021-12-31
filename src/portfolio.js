@@ -37,7 +37,7 @@ const skills = {
         "⚡ Build responsive website front end Dengan ReactJs/NextJs",
         "⚡ Develop mobile applications Dengan React Native",
         "⚡ Backend Aplikasi Dengan NodeJs, Express & MongoDb",
-        "⚡ Intergrasi Layanan Third Party Seperti Firebase/ AWS / Digital Ocean",
+        "⚡ Intergrasi Layanan Seperti Firebase/ AWS / Digital Ocean",
       ],
       softwareSkills: [
         {
