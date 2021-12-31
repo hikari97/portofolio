@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to true if you want to use the splash screen.
+  isSplash: false, // Change this to true if you want to use the splash screen.
   useCustomCursor: true, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
@@ -23,11 +23,8 @@ const greeting = {
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/hikari97",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
   gmail: "h.makki97@gmail.com",
-  facebook: "https://www.facebook.com/harikrishan.kanani/",
   twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/hari_kanani_/",
 };
 
 const skills = {

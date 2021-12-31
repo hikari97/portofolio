@@ -80,7 +80,7 @@ function Header(props) {
           <ul className="menu">
             <li>
               <NavLink
-                className="homei"
+                className="home"
                 to="/home"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
@@ -119,7 +119,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                Contact Dan CV
               </NavLink>
             </li>
             <button {...styles} onClick={changeTheme}>
