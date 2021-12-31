@@ -494,7 +494,7 @@ const contactPageData = {
     title: "Mengenai Saya",
     subtitle:
       "Saya Adalah Full Stack Delevoper Yang Selalu Ingin Tau Hal Baru.",
-    link: "https://web.facebook.com/MAKKI.HIKARI/",
+    link: "https://wa.me/+6282393100357",
     avatar_image_path: "blogs_image.svg",
   },
 };
