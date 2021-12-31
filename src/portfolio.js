@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "makki",
   nickname: "makki / haji",
   full_name: "H. Makki",
-  subTitle: "Full Stack Developer.",
+  subTitle: "Seorang Full Stack Developer.",
   resumeLink:
     "https://drive.google.com/file/d/148gPtSYibTQYt2pkuMUG6OJcZ00ACxKC/view?usp=sharing",
   mail: "mailto:h.makki97@gmail.com",
